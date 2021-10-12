@@ -1,0 +1,322 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.MenuItem
+{
+  color:white;
+  font-size: 22px;
+  font-family: initial;
+}
+
+.MenuDrawerItem
+{
+  color:#000d33;
+  font-size: 10px;
+  font-family: initial;
+}
+.MenuDrawerItem:hover
+{
+  color:#ffca44;
+
+}
+.MenuItem:hover
+{
+  color:#ffca44
+
+}
+.Map
+{
+  height: 550px;
+}
+.dropdown-item:hover
+{
+  color:#081333,
+
+}
+.LogoClass{
+  width: min(200px, 270px);
+}
+  .BottomNavBar {
+    overflow: hidden;
+    background-color:white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+  
+    border-top: 1px solid silver;
+  }
+  .line {
+             
+    /* Increase this as per requirement */
+    padding-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+.line1 {
+             
+  /* Increase this as per requirement */
+  padding-bottom: 3px;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-color: #ffca44;
+  width: fit-content;
+}
+  .footerMenu:hover
+  {
+     color: #ffca44;
+  }
+  .footerMenu
+  {
+     color: white;
+     text-decoration: none;
+  }
+ 
+
+  .Offer
+  {
+    width: 100%;
+    height: 37vh;
+    background-image: url('https://i.pinimg.com/736x/f8/1b/47/f81b47fed0733436998c15377eb13d87.jpg');
+    background-size: cover;
+    background-position:center;
+    position: relative;
+   
+  }
+
+  .Feature
+  {
+    width: 100%;
+    height: 80vh;
+    background-image:linear-gradient(to right,rgba(0,0,0,1) 20% ,rgba(255,255,255,0.2)), url(./Components/Images/bgImage.jpg);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+   
+  }
+  .BTN-Class
+  {
+    width:120px;
+    text-transform: capitalize;
+    background-color: #ffca44;
+    color: black;
+    border-radius: 50px;
+    font-family: initial;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+ 
+  
+ .BTN-Class:hover
+ {
+  background-color:white;
+  color: black;
+ } .BTN-Class1
+ {
+   width:120px;
+   text-transform: capitalize;
+   background-color: black;
+   color: white;
+   border-radius: 50px;
+   border: 1px solid white;
+   font-family: initial;
+   font-weight: bold;
+
+ }
+
+ 
+.BTN-Class1:hover
+{
+ background-color:white;
+ color: black;
+}
+  .Feature-Div
+  {
+    color: white;
+    max-width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    text-align: center;
+    padding: auto;
+  }
+  .socialMedia
+  {
+     transition:all 0.3s linear;
+  }
+  .socialMedia:hover
+  {
+    transform: scale(1.3);
+  }
+.SignInClass
+{
+  background-color: #ffca44;
+}
+  .FooterClass
+  {
+  
+    /* background-color: #48546c; */
+    background-color:#081333;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+
+  }
+  .BottomNavBar a {
+    float: left;
+    display: block;
+    color: #000d33;
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+    font-size: 15px;
+    width: 20%;
+    
+    
+  }
+  .AccessoriesClass:hover
+  {
+    color: #ffca44;
+    cursor:auto;
+  }
+  .DropClass:hover
+  {
+    color: #ffca44;
+  }
+  .BottomNavBar a:hover {
+   
+    color:#ffca44;
+   
+  }
+  @media screen and (min-width: 500px) {
+    .BottomNavBar {
+    display: none;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .HideText{
+    display: none;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .carousel-indicators {
+    visibility: hidden;
+    }
+    .Map
+    {
+      height: 300px;
+    }
+  }
+  .card-img-top
+  {
+    height:'200px';
+  }
+  h4 {
+    display: flex;
+    flex-direction: row;
+}
+  
+.ImgTransform:hover {
+	transform: scale(1);
+}
+.card1:hover {
+	box-shadow: 0 0 15px 5px rgb(184, 183, 183);
+}
+
+.ShadowClass:focus
+{
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px gray;
+}
+  @media screen and (max-width: 768px) {
+    .Why {
+    text-align: justify;
+  
+    }
+  }
+  .card-img{
+    height:200px;
+    width:100%;
+  }
+  @media screen and (max-width: 768px) {
+    .card {
+    width: 160.6px;
+    height: 250px;
+    }
+    .card-img-top
+    {
+      height: 120px;
+    }
+    .card-img{
+      height: 100px;
+  
+    }
+  }
+  /* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.btn-secondary:hover
+{
+  background-color: rgb(221, 134, 99);
+}
+  

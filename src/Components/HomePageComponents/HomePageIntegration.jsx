@@ -6,6 +6,7 @@ import AccessoriesComponent from "./AccessoriesComponent";
 import SignInOption from "./SignInOption";
 import WhyBuy from "./WhyBuy";
 import NewArivalProducts from "./NewArivalProducts";
+import BeautifullLaptop from "./BeautifullLaptop";
 
 import MapComponent from "./MapComponent";
 import MultiSlider from "./MultiSlider";
@@ -21,7 +22,8 @@ const HomePageIntegration=()=>
         <WhyBuy />
         <MultiSlider />  
     
-        <NewArivalProducts /> 
+        {/* <NewArivalProducts />  */}
+        <BeautifullLaptop />
         
     
     

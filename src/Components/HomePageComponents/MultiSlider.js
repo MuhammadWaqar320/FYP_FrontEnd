@@ -6,7 +6,6 @@ import { NavLink } from "react-router-dom";
 import { Box, Button, Paper,Grid, Typography } from "@material-ui/core";
 import GridViewIcon from '@mui/icons-material/GridView';
 import { makeStyles } from "@material-ui/core";
-import { red } from "@material-ui/core/colors";
 import { Hidden } from "@mui/material";
 
 import Countdown from 'react-countdown';

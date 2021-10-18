@@ -119,7 +119,16 @@
     position: relative;
    
   }
-
+  .Offer1
+  {
+    width: 100%;
+    height: 37vh;
+    background-image: url('https://videohive.img.customer.envatousercontent.com/files/319075142/Big%20Sale%201920px.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=3b04bad58f2346f3058acb9703192dbb');
+    background-size: cover;
+    background-position:center;
+    position: relative;
+  }
+  
   .Feature
   {
     width: 100%;
